@@ -6,7 +6,10 @@
 	$dbpass = "securepassword";
 	$dbname = "name of the database";
 	$dbtable = "name of your database table";
-	
+        //I have a MySQL DB setup on local host with a DB named "Hive" a table for the "ThermostatTemps" with;
+        // | ID (auto inc int)  | datetime (datetime)   | temp (int)|
+        // |        10989       | 2020-10-13 08:00:00   |     17    |
+	// |        10988       | 2020-10-13 07:00:00   |    16.5   |
 	
 	//Hive details
 	$username= "username@gmail.com"; 
